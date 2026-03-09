@@ -35,6 +35,7 @@ export const projects = [
     tag: 'Product Design',
     category: 'product',
     title: 'RELI - MLS Data Feed Manager',
+    hidden: true,
     summary:
       'MLS data powers the listings that agents, brokers, and vendors rely on every day — but managing the connections between them was anything but simple. I led the design of a web-based API management tool that gave administrators a single consolidated view of all data feeds, and gave agents and brokers the self-service controls they had never had before.',
     shortSummary:
