@@ -65,7 +65,9 @@ export default function ProjectPage() {
 
         <div className="project-hero__grid">
           <div>
-            <span className="project-hero__tag">{project.tag}</span>
+            {(project.tags ?? [project.tag]).map((t) => (
+              <span className="project-hero__tag" key={t}>{t}</span>
+            ))}
             <h1 className="project-hero__title">{project.title}</h1>
           </div>
           <div className="project-hero__meta">

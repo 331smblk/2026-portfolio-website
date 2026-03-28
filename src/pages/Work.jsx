@@ -4,11 +4,12 @@ import ProjectCard from '../components/ProjectCard.jsx'
 import { visibleProjects as projects } from '../data/projects.js'
 
 const ALL_FILTERS = [
-  { label: 'All',            value: 'all'      },
-  { label: 'Product Design', value: 'product'  },
-  { label: 'Website',        value: 'website'  },
-  { label: 'Branding',       value: 'branding' },
-  { label: 'Print',          value: 'print'    },
+  { label: 'All',            value: 'all'         },
+  { label: 'Product Design', value: 'product'     },
+  { label: 'Website',        value: 'website'     },
+  { label: 'Branding',       value: 'branding'    },
+  { label: 'Print',          value: 'print'       },
+  { label: 'Photography',    value: 'photography' },
 ]
 
 // Derive which categories have at least one visible project

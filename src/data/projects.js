@@ -22,6 +22,11 @@ import aaProcess   from '../assets/images/aa-process.jpg'
 import aaProcessCards  from '../assets/images/aa-process-2.jpg'
 import aaProcess3 from '../assets/images/aa-process-3.jpg'
 import dnCover        from '../assets/images/dn-cover.jpg'
+import twisterCover    from '../assets/images/cover-twister-special.jpg'
+import twisterConcept1 from '../assets/images/twister-special-concept-1.jpg'
+import twisterConcept2 from '../assets/images/twister-special-concept-2.jpg'
+import twisterBrochure from '../assets/images/brochure-photos-retouched.jpg'
+import twister2up      from '../assets/images/twister-special-2up.jpg'
 import dnFullSpread   from '../assets/images/dn-full-spread.jpg'
 import dnLayoutBack   from '../assets/images/dn-layout-back.jpg'
 import dnInsideLayout from '../assets/images/dn-inside-layout.jpg'
@@ -310,7 +315,77 @@ export const projects = [
     ],
   },
 
-  // ── 4. Decadent Nation Album Cover ───────────────────────────
+  // ── 4. Twister Special Posters ───────────────────────────────
+  {
+    id: 'twister-special-posters',
+    tag: 'Photography & Graphic Design',
+    tags: ['Photography', 'Graphic Design'],
+    category: 'photography',
+    title: '2008 Twister Special Mustang Posters',
+    summary:
+      'Jeff Yergovich — the world-renowned Shelby Mustang restoration expert — struck a deal with Ford Motor Company to build a limited production run of 2008 Twister Special Mustangs, reviving a legendary nameplate. I collaborated with his team at R&A Motorsports to photograph their concept vehicle and design a series of posters that embodied the Twister Special brand.',
+    shortSummary:
+      'Photography and poster design for a limited-production 2008 Twister Special Mustang built in partnership with Ford Motor Company.',
+    year: '2007',
+    coverImage: twisterCover,
+    placeholderIndex: 2,
+    meta: [
+      { label: 'Client',   value: 'R&A Motorsports — Jeff Yergovich' },
+      { label: 'Role',     value: 'Photographer & Graphic Designer' },
+      { label: 'Year',     value: '2007' },
+      { label: 'Tools',    value: 'Adobe Photoshop, InDesign' },
+    ],
+    sections: [
+      {
+        label: 'Overview',
+        title: 'Bringing back a Mustang legend',
+        body: [
+          'Jeff Yergovich is one of the most respected names in Shelby Mustang restoration. When he secured a deal with Ford Motor Company to produce a limited run of 25 <strong>2008 Twister Special Mustangs</strong> — resurrecting a legendary nameplate first introduced in 1970 — he needed photography and print collateral that lived up to the car\'s heritage.',
+          'I was brought in to photograph the concept vehicle and translate that visual material into a series of posters that could represent the Twister Special brand at events, in showrooms, and beyond.',
+        ],
+      },
+      {
+        label: 'Photography',
+        title: 'Capturing the concept vehicle',
+        body: [
+          'Working on-site with the R&A Motorsports team in Lee\'s Summit, Missouri, I photographed the Twister Special concept vehicle — focusing on angles and lighting that highlighted the car\'s aggressive stance, custom detailing, and the visual cues that tied it back to the original 1970 build.',
+          'The photography needed to do two things at once: <strong>document the vehicle accurately</strong> for the client, and <strong>serve as the primary visual asset</strong> for the poster series.',
+        ],
+        caseImages: [
+          { src: twisterBrochure, alt: 'Twister Special — concept vehicle photography', zoomable: true, wide: true },
+        ],
+      },
+      {
+        label: 'Poster Design',
+        title: 'A series built around the brand',
+        body: [
+          'Using the original photography as the foundation, I designed a series of posters that communicated the limited-production nature of the vehicle and the weight of the Twister Special legacy.',
+          'Typography, layout, and color were chosen to reflect both the <strong>muscle car heritage</strong> of the nameplate and the premium positioning of a Ford-partnered limited run — the kind of collateral that belonged in a showroom alongside the car itself.',
+        ],
+        caseImages: [
+          { src: twister2up, alt: 'Twister Special — poster 2-up view', zoomable: true, natural: true },
+          {
+            type: '2col',
+            images: [
+              { src: twisterConcept1, alt: 'Twister Special — poster variant A', zoomable: true, natural: true },
+              { src: twisterConcept2, alt: 'Twister Special — poster variant B', zoomable: true, natural: true },
+            ],
+          },
+        ],
+      },
+      {
+        label: 'Outcomes',
+        title: 'Print collateral for a limited legend',
+        outcomes: [
+          'Delivered original vehicle photography used across all print and promotional materials for the Twister Special launch.',
+          'Designed a poster series representing the limited-production run at events and in showroom settings.',
+          'Contributed to the visual identity of a Ford-partnered vehicle revival with direct ties to Mustang history.',
+        ],
+      },
+    ],
+  },
+
+  // ── 5. Decadent Nation Album Cover ───────────────────────────
   {
     id: 'decadent-nation-album-cover',
     hidden: true,

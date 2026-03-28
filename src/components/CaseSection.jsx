@@ -87,6 +87,7 @@ export default function CaseSection({ section }) {
                     src={img.src}
                     alt={img.alt}
                     zoomable={img.zoomable}
+                    natural={img.natural}
                     noMargin
                   />
                 ))}
@@ -99,6 +100,8 @@ export default function CaseSection({ section }) {
               src={item.src}
               alt={item.alt}
               zoomable={item.zoomable}
+              wide={item.wide}
+              natural={item.natural}
             />
           )
         })}

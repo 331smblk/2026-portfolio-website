@@ -17,12 +17,13 @@ import Lightbox from './Lightbox.jsx'
  *   wide      {boolean} — 16:7 aspect ratio (default is 16:9)
  *   noMargin  {boolean} — suppresses the default top margin (for 2-col grids)
  */
-export default function CaseImage({ src, alt, label, gradient, zoomable = false, wide = false, noMargin = false }) {
+export default function CaseImage({ src, alt, label, gradient, zoomable = false, wide = false, natural = false, noMargin = false }) {
   const [open, setOpen] = useState(false)
 
   const classNames = [
     'case-image',
-    wide      ? 'case-image--wide'     : '',
+    wide    ? 'case-image--wide'    : '',
+    natural ? 'case-image--natural' : '',
     zoomable && src ? 'case-image--zoomable' : '',
   ].filter(Boolean).join(' ')
 

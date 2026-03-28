@@ -44,7 +44,9 @@ export default function ProjectCard({ project }) {
       {/* ── Left: meta + title + summary ── */}
       <div className="project-card__meta">
         <div>
-          <span className="project-tag">{project.tag}</span>
+          {(project.tags ?? [project.tag]).map((t) => (
+            <span className="project-tag" key={t}>{t}</span>
+          ))}
           <h2 className="project-title">{project.title}</h2>
           <p className="project-summary">{project.shortSummary || project.summary}</p>
         </div>

@@ -29,11 +29,11 @@ const SKILLS = [
     title: 'Tools',
     items: [
       'Figma & FigJam',
-      'Framer',
-      'Maze / UserTesting',
+      'Adobe Creative Suite',
+      'Pendo Analytics',
+      'Claude Code',
       'Miro',
       'HTML / CSS',
-      'Adobe Creative Suite',
     ],
   },
 ]
